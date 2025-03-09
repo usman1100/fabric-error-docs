@@ -2,20 +2,20 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Fabric Error Reporting Documentation",
+  title: "Fabric Error Reporting",
   description: "Documentation for the Fabric Error Reporting System",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
+    // nav: [
+    //   { text: "Home", link: "/" },
+    //   { text: "Examples", link: "/markdown-examples" },
+    // ],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "Contents",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
+          { text: "How it works", link: "/how-it-works" },
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
