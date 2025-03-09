@@ -16,7 +16,7 @@ export default defineConfig({
         text: "Contents",
         items: [
           { text: "How it works", link: "/how-it-works" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "All errors", link: "/all-errors" },
         ],
       },
     ],

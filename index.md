@@ -10,5 +10,5 @@ hero:
       link: /how-it-works
     - theme: alt
       text: Examples
-      link: /api-examples
+      link: /all-errors
 ---
